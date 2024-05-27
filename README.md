@@ -4,9 +4,12 @@ This repository contains a natural language processing (NLP) project aimed at de
 ## Models Used
 ### LSTM Model
 Embedding: GloVe embeddings
+
 Architecture: Long Short-Term Memory (LSTM)
+
 ### BERT Model
 Tokenizer: BERT Tokenizer
+
 Model: BERT Mini
 
 ## Model Evaluation
@@ -14,10 +17,12 @@ The models were evaluated using different batch sizes (32 and 64) and learning r
 
 ## Results on Batch size 64 and learning rate 0.001 (best ones)
 ![git_drug_results](https://github.com/piyushinduja/Symptom-Based-Disease-Detector/assets/74929365/552359d8-d45c-4d6e-b052-2e59e9f19319)
+
 Maximum Label Accuracy: 0.0022 (indicating that the most occurring label does not overfit the model)
 
 ## Links
 BERT Mini: [Link](https://huggingface.co/prajjwal1/bert-mini)
+
 Dataset: [Link](https://www.kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018)
 
 ## Conclusion

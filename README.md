@@ -1,4 +1,4 @@
-# Symptom-Based Disease Detection
+# Symptom-Based Disease Detector
 This repository contains a natural language processing (NLP) project aimed at detecting a person's condition or disease based on their described symptoms. The project involves two different models for multiclass classification: LSTM and BERT.
 
 ## Models Used

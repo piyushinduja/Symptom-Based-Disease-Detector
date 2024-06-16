@@ -16,7 +16,18 @@ Model: BERT Mini
 The models were evaluated using different batch sizes (32 and 64) and learning rates (0.1, 0.01, 0.001, 0.0001). The best results were achieved with a batch size of 64 and a learning rate of 0.001.
 
 ## Results on Batch size 64 and learning rate 0.001 (best ones)
-![git_drug_results](https://github.com/piyushinduja/Symptom-Based-Disease-Detector/assets/74929365/552359d8-d45c-4d6e-b052-2e59e9f19319)
+
+F1 Scores:
+
+LSTM model: 70.71%
+
+BERT-mini model: 77.43%
+
+Accuracies:
+
+LSTM model: 58.44%
+
+BERT-mini model: 64.58%
 
 Maximum Label Accuracy: 0.0022 (indicating that the most occurring label does not overfit the model)
 
